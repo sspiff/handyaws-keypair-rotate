@@ -1,0 +1,31 @@
+{
+  "name": "@sspiff/handyaws-keypair-rotate",
+  "version": "0.1.0",
+  "description": "AWS Secrets Manager rotation lambda for asymmetric key pairs",
+  "main": "src/index.js",
+  "files": [
+    "src/*.js"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sspiff/handyaws-keypair-rotate.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "author": "sspiff",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sspiff/handyaws-keypair-rotate/issues"
+  },
+  "homepage": "https://github.com/sspiff/handyaws-keypair-rotate#readme",
+  "dependencies": {
+    "@sspiff/handy": "^0.1.1",
+    "@sspiff/handy-keypair": "^0.1.0",
+    "@sspiff/handyaws": "^0.1.0"
+  }
+}
